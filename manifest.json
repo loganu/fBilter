@@ -5,7 +5,7 @@
   "description": "This extension filters your facebook feed to hide ads, memes, photos, and other bullshit - paring it down to a more curated, intimate version.",
   "version": "1.0",
   "icons": { "16": "icon16.png",
-          "32": "incon32.png",
+          "64": "icon64.png",
            "48": "icon48.png",
           "128": "icon128.png" },
 
