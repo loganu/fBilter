@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "fBilter",
+  "description": "This extension filters your facebook feed to hide ads, memes, photos, and other bullshit - paring it down to a more curated, intimate version.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab"
+    // "https://ajax.googleapis.com/"
+  ],
+
+ "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/",
+      "https://www.facebook.com/"],
+      "css": ["styles.css"]
+      // "js": ["jquery.js", "myscript.js"]
+    }
+  ]
+}
